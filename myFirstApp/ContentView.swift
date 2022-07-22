@@ -9,8 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+//        TabView{
+//            retoBox().tabItem{
+//                Text("retoBox")
+//                Image(systemName: "play")
+//            }
+//            Images().tabItem{
+//                Text("retoBox")
+//                Image(systemName: "flame")
+//            }
+//            textInputs().tabItem{
+//                Text("retoBox")
+//                Image(systemName: "drop")
+//            }
+//            zstackTrain().tabItem{
+//                Text("retoBox")
+//                Image(systemName: "car")
+//            }
+//        }
+        PlayerVideos()
     }
 }
 
